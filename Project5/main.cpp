@@ -59,6 +59,6 @@ int main()
 void fun(Cat& rCat)
 {
 	cout << "Change age" << endl;
-	rCat.SetAge(6);
+	rCat.SetAge(10);
 	cout << &rCat << endl;
 }
